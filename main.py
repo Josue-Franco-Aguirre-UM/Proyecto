@@ -170,7 +170,7 @@ while not done:
     # -----------------------------------------------------------------------------------------------------------------
 
     # ----- DIBUJA LAS IMÁGENES EN LA LISTA -----
-    for i, imagen in enumerate(lista_imagenes):
+    for i, imagen in enumerate(lista_imagenes): # iterar sobre la lista lista_imagenes y obtener tanto el índice como el valor de cada elemento de la lista
         screen.blit(imagen, (150, 50 + i * 110))
     # -------------------------------------------
 
